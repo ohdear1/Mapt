@@ -1,0 +1,21 @@
+Step 1 - Check for a SSH key exists in Git, if not copy key from Git GUI into Profile settings of Github.com
+
+Step 2 - Create a repository on git
+
+Step 3 - Open Git Bash by right cliking on the folder to add to a new repository
+
+Step 4 - Type > git init in Bash
+
+Step 5 - Type > git add . (to stage the first commit)
+
+Step 6 - Type > git commit -m "First commit"
+
+Step 7 - Go to the git repository and copy remote URL
+
+Step 8 - Type > git remote add origin and paste the URL (found when you click on the repository name) i.e git remote add origin git@github.com:ohdear1/Sams-Teach-Yourself-Unity-2018-in-24-Hours.git
+
+Step 9 - Type > git remote -v  (to verify the remote URL)
+
+Errors - If an error occurs type > git add --ignore-errors .
+
+git push -u origin master --ignore-errors . (Can give a clue to the files that are not uploading)
